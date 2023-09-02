@@ -1,0 +1,181 @@
+@charset "UFT-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+@font-face {
+    font-family: 'globo';
+    src: url("fonts/Coverface-SE-Bold.ttf.woff") format('opentype'),
+    url("fonts/Coverface-SE-Bold.ttf.eot") format('opentype');
+}
+
+body {
+    background-color: rgb(247, 240, 240);
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin: 0px;
+}
+h1 {
+    text-align: center;
+    font-family: 'globo';
+    font-size: 2em;
+
+    color: white;
+    padding: 0px;
+}
+h2 {
+    font-family: 'Open Sans';
+    font-size: 2em;
+    font-style: normal;
+    color: #05903D;
+    text-align: center;
+    margin: 0px;
+}
+p {
+    text-align: left;
+    font-family: 'Open Sans';
+    font-size: 1em;
+    font-style: normal;
+}
+header {
+    margin: 0px;
+    background-color: #06AA48;
+    height: 60px;
+}
+nav {
+    display: none;
+    font-size: 1em;
+    height: 50px;
+    width: auto;
+    
+    position: absolute;
+    left: 10px;
+
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.418);
+}
+nav > a {
+    padding: 10px;
+    font-style: normal;
+    text-decoration: none;
+    color: white;
+    font-family: 'Open Sans';
+
+}
+nav > a:visited {
+    color: white;
+}
+nav > a:active {
+    color: white;
+}
+nav > a:hover {
+    color: rgb(1, 36, 1);
+}
+h2#sub {
+    padding-top: 30px;
+}
+img#menu {
+    height: 20px;
+    width: 30px;
+
+    position: absolute;
+    left: 10px;
+    top: 40px;
+}
+div#divmenu:hover > nav {
+    background-color: #06AA48;
+    display: block;
+    height: 35px;
+    width: auto;
+}
+div#divmenu:hover > img {
+    height: 25px;
+    width: 35px;
+}
+nav:hover {
+    background-color: #06AA48;
+    display: block;
+    height: 35px;
+    width: auto;
+}
+footer {
+    background-color: #06AA48;
+    height: auto;
+    width: auto;
+    color: white;
+    padding: 1px;
+}
+.escudos {
+    height: 40px;
+    width: 40px;
+    
+    position: relative;
+    top: 13px;
+}
+.jogos {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    color: black;
+    text-align: center;
+    padding: 5px;
+
+    display: inline-block;
+    height: 125px;
+    width: 220px;
+
+    border: 3px;
+    border-radius: 20px;
+    border-color: rgba(0, 0, 0, 0.185);
+    border-style: solid;
+    margin: 10px;
+}
+.placar {
+    font-size: 1.5em;
+}
+.est {
+    color: gray;
+    text-align: center;
+    text-decoration: normal;
+    font-size: 0.75em;
+
+    position: relative;
+    left: 55px;
+}
+.camp {
+    font-size: 0.75em;
+    color: gray;
+    margin-bottom: 0px;
+    text-align: center;
+}
+.noticia {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    color: #06AA48;
+    margin: 5px;
+    width: 600px;
+
+    position: absolute;
+    top: 170px;
+    left: 330px;
+}
+.link-noticia {
+    text-decoration: none;
+    color: #06AA48;
+}
+.link-noticia:hover {
+    color: #076e30;
+}
+.materia {
+    height: 200px;
+    width: 300px;
+}
+.news {
+    padding-left: 20px;
+}
+p#dorival {
+    display: inline-block;
+}
+.conteudo {
+    width: 600px;
+    position: relative;
+    top: -160px;
+    left: 317px;
+}

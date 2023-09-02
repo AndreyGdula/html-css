@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de textos</title>
+    <style>
+        mark {
+            background-color: rgb(187, 255, 0);
+        }
+    </style>
+</head>
+<body>
+    <h1>Principais formatações</h1>
+    <h2>Legenda:</h2>
+    <p>Semântica: ✅ <br>Não Semântica: ❌</p>
+    <hr>
+    <h2>Negrito / Destaque</h2>
+    <p>Nesta frase temos um <b>termo em negrito </b>usando a tag &lt;b&gt; ❌</p>
+    <p>Nesta frase temos um <strong>termo em destaque</strong> usando a tag &lt;strong&gt; ✅</p>
+    <hr>
+    <h2>Italico / Ênfase</h2>
+    <p>Nesta frase temos um <i>termo em Italico</i> usando a tag &lt;i&gt; ❌</p>
+    <p>Nesta frase temos um <em>termo em ênfase</em> uando a tag &lt;em&gt; ✅</p>
+    <hr>
+    <h2>Texto Marcado</h2>
+    <p>Nesta frase temos um <mark>termo marcado</mark> usando a tag &lt;mark&gt;</p>
+    <h3>Mudando a Cor do Marcador</h3>
+    <p>Nesta frase temos um <mark style="background-color: rgb(24, 247, 24);">marcador colorido</mark> usando o parâmetro style</p>
+    <hr>
+    <h2>Texto Grande e Pequeno</h2>
+    <p>Nesta frase temos um <big>termo grande</big> ❌ e um <small>termo pequeno</small> ✅ usando &lt;big&gt; e &lt;small&gt;</p>
+    <hr>
+    <h2>Textos Excluídos e Inseridos</h2>
+    <h3>Textos Excluídos</h3>
+    <p>Nesta frase vemos um <del>termo excluido</del> para mostrar que ele deve ser lido mas não considerado, utilizando a tag &lt;del&gt; ✅</p>
+    <h3>Textos Inseridos</h3>
+    <p>Nesta frase vemos um <ins>termo inserido</ins> para mostrar que ele foi adicionado depois utilizando a tag &lt;ins&gt; ✅</p>
+    <h3>Texto Sublinhado</h3>
+    <p>Nesta frase temos um <u>termo sublinhado</u> usando a tag &lt;u&gt; ❌</p>
+    <hr>
+    <h2>Texto Subscrito e Sobrescrito</h2>
+    <h3>Texto Subscrito</h3>
+    <p>Para inserir coisas do tipo H<sub>2</sub>O usando a tag &lt;sub&gt; ✅</p>
+    <h3>Texto Sobrescrito</h3>
+    <p>Para inserir coisas do tipo X<sup>2</sup> usando a tag &lt;sup&gt; ✅</p>
+    <hr>
+    <h2>Abreviações</h2>
+    <p>Abreviações utilize a TAG <abbr title="Abreviação">&lt;abbr&gt;</abbr> ✅</p>
+    <hr>
+    <h2>Código-Fonte</h2>
+    <p>Para colocar um código fonte, utilze a TAG <abbr title="para que o texto fique formatado da forma que foi escrito">&lt;pre&gt;</abbr> e <abbr title="para a utilizar uma fonte de código">&lt;code&gt;</abbr>:</p>
+    <pre>
+        <code>
+            num = int(input('Digite um número: '))
+            if num % 2 == 0:
+                print(f'O número {num} é PAR!')
+            else:
+                print(f'O número {num} é IMPAR!')
+            print('Fim do Programa')
+        </code>
+    </pre>
+    <hr>
+    <h2>Citações</h2>
+    <h3>Citações Simples</h3>
+    <p>Utilizando a TAG &lt;q&gt; <q>Você pode fazer citações simples</q> ✅</p>
+    <h3>Citações Completas</h3>
+    <p>Utilizando a TAG &lt;blockquote&gt;</p>
+    <blockquote cite="lembre-se de citar a fonte">
+        Você pode adicionar citações completas ✅
+    </blockquote>
+    <hr>
+    <h2>Texto Invertido</h2>
+    <p>
+        <bdo dir="rtl">
+            <abbr title="❌Texto Invertido utilizando a TAG &lt;bdo&gt; e o parâmetro dir=rtl">
+                ❌ Texto invertido utilizando a TAG &lt;bdo&gt; e o parâmetro dir=rtl
+            </abbr>
+        </bdo>
+    </p>
+</body>
+</html>
