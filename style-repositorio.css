@@ -91,6 +91,9 @@ main a.project:hover {
     background-color: #FAFAFA;
     color: var(--color05);
 }
+main a.project::after {
+    content: ' 🔗';
+}
 main h2 {
     font-family: var(--font-sub);
     font-size: 1.5em;
