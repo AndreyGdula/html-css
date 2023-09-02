@@ -1,7 +1,4 @@
 # html-css
- HTML5 e CSS3 - Curso em Video
-
-<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
