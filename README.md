@@ -72,11 +72,6 @@
             border-radius: 10px;
             width: 40%;
         }
-        img#img-html {
-            position: absolute;
-            left: 70%;
-            top: 22%;
-        }
     </style>
 </head>
 <body>
@@ -90,11 +85,8 @@
         <h2>Meus projetos em HTML5 e CSS3:</h2>
         <ul>
             <li><a href="http://andreygdula.github.io/projeto-android" target="_blank" class="project">Projeto Android</a></li>
-            <li><a href="https://andreygdula.github.io/html-css/Exercícios%20-%20HTML/projetos/social.html" target="_blank" class="project">Redes Sociais</a></li>
+            <li><a href="https://andreygdula.github.io/html-css/Exercícios%20-%20HTML/projetos/social/social.html" target="_blank" class="project">Redes Sociais</a></li>
         </ul>
     </div>
-    <picture>
-        <img src="image-readme/html5-css3.png" alt="html5-css3" id="img-html">
-    </picture>
 </body>
 </html>
