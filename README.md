@@ -24,7 +24,7 @@
         }
         h1 {
             font-family: var(--font-title);
-            font-size: 1.5em;
+            font-size: 1.2em;
             font-weight: normal;
             text-align: left;
             padding: 20px;

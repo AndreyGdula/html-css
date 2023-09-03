@@ -107,6 +107,9 @@ main h2:hover {
     border-radius: 5px;
     transition-duration: 1s;
 }
+main li {
+    padding: 15px;
+}
 footer {
     background-color: var(--color01);
     text-align: center;
