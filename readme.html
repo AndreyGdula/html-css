@@ -3,43 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Andrey Gdula</title>
-    <link rel="shortcut icon" href="image/github.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style-repositorio.css">
+    <title>Repostório Público - Andrey Gdula</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+        :root {
+            --font-title: 'Press Start 2P', 'Bebas Neue', 'Arial', 'sans-serif';
+            --font-text: 'Space Mono', 'Arial', 'sans-serif';
+            --font-project: 'Arial', 'Helvetica', 'sans-serfi';
+            --color01: #0B2447;
+            --color02: #FAFAFA;
+            --color03: #0B242C;
+            --color04: #2A6478;
+        }
+        body {
+            background-color: var(--color01);
+            color: var(--color02);
+        }
+        h1 {
+            font-family: var(--font-title);
+            font-size: 1.5em;
+            font-weight: normal;
+            text-align: left;
+            padding: 20px;
+            margin-top: 0px;
+        }
+        h2 {
+            font-family: var(--font-title);
+            font-size: 1em;
+            font-weight: normal;
+            text-align: left;
+            padding: 20px;
+            padding-bottom: 10px;
+        }
+        p {
+            font-family: var(--font-text);
+            font-size: 1em;
+            font-weight: normal;
+            text-align: left;
+            line-height: 2em;
+            padding: 10px;
+            text-indent: 30px;
+        }
+        div.project {
+            background-color: var(--color04);
+            border-radius: 20px;
+            width: 50%;
+            padding: 5px 10px 10px 10px;
+        }
+        ul {
+            list-style-type: '\2714\00A0\00A0';
+        }
+        a.project {
+            display: block;
+            color: var(--color02);
+            font-family: var(--font-project);
+            text-decoration: none;
+            font-size: 1.2em;
+            font-weight: bold;
+            padding: 10px 10px 10px 10px;
+        }
+        a.project:hover {
+            background-image: linear-gradient(to right, var(--color02), transparent);
+            color: var(--color03);
+            transition-duration: .5s;
+            border-radius: 10px;
+            width: 40%;
+        }
+        img#img-html {
+            position: absolute;
+            left: 70%;
+            top: 22%;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>REPOSITÓRIO ONLINE</h1>
-        <nav>
-            <a href="https://github.com/andreygdula" target="_blank">GitHub</a>
-            <a href="https://www.instagram.com/andreygdula/" target="_blank">Instagram</a>
-            <a href="https://api.whatsapp.com/send/?phone=5515981095916&text&type=phone_number&app_absent=0" target="_blank">WhatsApp</a>
-            <a href="mailto:andreygdula@gmail.com" target="_blank">E-mail</a>
-        </nav>
-    </header>
-    <main>
-        <h2>
-            QUEM SOU EU?
-        </h2>
-        <p>
-            Olá, eu me chamo Andrey Gdula, nasci em 2005 no Paraná e com apenas 1 ano de idade me mudei para Sorocaba, São Paulo. Sou técnico em Mecatrônica, formado pela ETEC Rubens de Faria e Souza.
-        </p>
-        <p>
-            Meu primeiro contato com desenvolvimento foi aos 13 anos, quando comecei a estudar python por conta própria, e cheguei até o Curso em Vídeo, rapidamente tomei gosto pela programação e desenvolvimento no geral.
-        </p>
-        <h2>
-            MEUS PROJETOS
-        </h2>
-        <p>
-            <ul class="project">
-                <li>
-                    <a href="https://andreygdula.github.io/projeto-android/" class="project">Projeto Android</a>
-                </li>
-            </ul>
-        </p>
-    </main>
-    <footer>
-        <p>Repositório criado por Andrey Gdula</p>
-    </footer>
+    <h1>
+        Repositório Público do Andrey Gdula
+    </h1>
+    <p>
+        Aqui estão os meus projetos.
+    </p>
+    <div class="project">
+        <h2>Meus projetos em HTML5 e CSS3:</h2>
+        <ul>
+            <li><a href="http://andreygdula.github.io/projeto-android" target="_blank" class="project">Projeto Android</a></li>
+            <li><a href="https://andreygdula.github.io/html-css/Exercícios%20-%20HTML/projetos/social.html" target="_blank" class="project">Redes Sociais</a></li>
+        </ul>
+    </div>
+    <picture>
+        <img src="image-readme/html5-css3.png" alt="html5-css3" id="img-html">
+    </picture>
 </body>
 </html>
