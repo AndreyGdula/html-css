@@ -85,6 +85,7 @@
         <h2>Meus projetos em HTML5 e CSS3:</h2>
         <ul>
             <li><a href="http://andreygdula.github.io/projeto-android" target="_blank" class="project">Projeto Android</a></li>
+            <li><a href="https://andreygdula.github.io/projeto-cordel" target="_blank" class="project">Projeto Cordel</a></li>
             <li><a href="https://andreygdula.github.io/html-css/Exercícios%20-%20HTML/projetos/social/social.html" target="_blank" class="project">Redes Sociais</a></li>
         </ul>
     </div>
