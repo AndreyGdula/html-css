@@ -86,6 +86,7 @@
         <ul>
             <li><a href="http://andreygdula.github.io/projeto-android" target="_blank" class="project">Projeto Android</a></li>
             <li><a href="https://andreygdula.github.io/projeto-cordel" target="_blank" class="project">Projeto Cordel</a></li>
+            <li><a href="https://andreygdula.github.io/projeto-redes-sociais" target="_blank" class="project">Projeto Redes Sociais</a></li>
             <li><a href="https://andreygdula.github.io/html-css/Exercícios%20-%20HTML/projetos/social/social.html" target="_blank" class="project">Redes Sociais</a></li>
         </ul>
     </div>
