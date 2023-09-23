@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 06</title>
+</head>
+<body>
+    <h1>Exemplo de formulário</h1>
+
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <p>
+            <label for="icolor">Cor:</label>
+            <input type="color" name="color" id="icolor" value="#FFFFFF">
+        </p>
+        <p>
+            <label for="irange">Satisfação:</label>
+            <input type="range" name="range" id="irange" value="50">
+        </p>
+        <p>
+            <label for="img">Carregue uma imagem:</label>
+            <input type="file" name="image" id="img">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
