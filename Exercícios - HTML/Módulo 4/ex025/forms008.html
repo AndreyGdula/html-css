@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 08</title>
+</head>
+<body>
+    <h1>Exemplo de formulário</h1>
+
+    <form action="cadastro.php" method="get">
+        <p>
+            <label for="inum1">Nùmero 1</label>
+            <input type="number" name="num1" id="inum1"
+            oninput="isoma.innerHTML = Number(inum1.value) + Number(inum2.value)">
+        </p>
+        <p>
+            <label for="inum2">Número 2</label>
+            <input type="number" name="num2" id="inum2"
+            oninput="isoma.innerHTML = Number(inum1.value) + Number(inum2.value)">
+        </p>
+        <p>
+            <label for="isoma">Soma</label>
+            <output name="soma" id="isoma">0</output>
+        </p>
+        <hr>
+        <p>
+            <label for="irange">Range</label>
+            <input type="range" name="range" id="irange" min="0" max="10" value="5"
+            oninput="iran.innerHTML = Number(irange.value)">
+            <output id="iran">5</output>
+        </p>
+        <hr>
+        <p>
+            <label for="iano">Em que ano você nasceu</label>
+            <input type="number" name="ano" id="iano" min="1900" max="2023" value="2000"
+            oninput="calcidade()">
+        </p>
+        <p>
+            <label for="idade">Sua idade:</label>
+            <output id="idade">23</output>
+        </p>
+        <hr>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+
+    <script>
+        function calcidade() {
+            let atual = new Date().getFullYear()
+            idade.innerHTML = Number(atual) - Number(iano.value)
+        }
+    </script>
+</body>
+</html>
