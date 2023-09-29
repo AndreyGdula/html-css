@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+header > h1 {
+    text-align: center;
+    color: black;
+    background-color: rgb(248, 216, 174);
+}
+
+header > menu {
+    text-align: left;
+    color: black;
+    background-color: antiquewhite;
+}
+
+header li {
+    display: inline-block;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+}
+
+main > article > h2 {
+    text-align: center;
+    font-size: 1.5em;
+    padding: 20px;
+}
+
+article > p {
+    display: block;
+    width: 600px;
+    margin: auto;
+    text-align: justify;
+}
